@@ -1,0 +1,32 @@
+artifact_path: /Users/ankitkumarsahoo/Documents/MLOps Labs/MLFlows Lab 2/mlruns/0/models/m-c19760bdc4524282840b9a46b907b5a5/artifacts
+flavors:
+  python_function:
+    cloudpickle_version: 3.1.2
+    code: null
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.pyfunc.model
+    python_model: python_model.pkl
+    python_version: 3.13.5
+    streamable: false
+is_signature_from_type_hint: false
+mlflow_version: 3.10.1
+model_id: m-c19760bdc4524282840b9a46b907b5a5
+model_size_bytes: 838017
+model_uuid: m-c19760bdc4524282840b9a46b907b5a5
+prompts: null
+run_id: 4d8317c5d8a4435f848f6924f673ce70
+signature:
+  inputs: '[{"type": "double", "name": "Aroma", "required": true}, {"type": "double",
+    "name": "Flavor", "required": true}, {"type": "double", "name": "Aftertaste",
+    "required": true}, {"type": "double", "name": "Acidity", "required": true}, {"type":
+    "double", "name": "Body", "required": true}, {"type": "double", "name": "Balance",
+    "required": true}, {"type": "double", "name": "Uniformity", "required": true},
+    {"type": "double", "name": "Clean_Cup", "required": true}, {"type": "double",
+    "name": "Sweetness", "required": true}, {"type": "double", "name": "Cupper_Points",
+    "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float64", "shape": [-1]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2026-03-13 00:32:42.009922'
