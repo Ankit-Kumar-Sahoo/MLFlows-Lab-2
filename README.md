@@ -1,4 +1,4 @@
-# ☕ Coffee Quality Prediction — MLflow Lab
+# Coffee Quality Prediction — MLflow Lab
 
 A modified version of the Wine Quality MLflow lab, adapted to predict **specialty-grade coffee** using sensory cupping data from the Coffee Quality Institute (CQI).
 
