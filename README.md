@@ -1,4 +1,4 @@
-# Coffee Quality Prediction — MLflow Lab
+# ☕ Coffee Quality Prediction — MLflow Lab
 
 A modified version of the Wine Quality MLflow lab, adapted to predict **specialty-grade coffee** using sensory cupping data from the Coffee Quality Institute (CQI).
 
@@ -73,7 +73,10 @@ jupyter notebook starter.ipynb
 10. Register model as `coffee_quality` in MLflow Model Registry
 11. Promote to Production stage
 12. Load production model and run batch inference
-13. Real-time inference via REST API (requires model server running in a separate terminal)
+13. Real-time inference via REST API — start the model server in a separate terminal first:
+    ```bash
+    mlflow models serve --env-manager=local -m models:/coffee_quality/production -h 0.0.0.0 -p 5001
+    ```
 
 ---
 
